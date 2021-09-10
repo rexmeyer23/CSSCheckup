@@ -1,0 +1,60 @@
+body{
+    background-color:rgba(27, 142, 236, 0.986);
+}
+h1{
+    text-align: center;
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: limegreen;
+}
+#padding1{
+    border: 8px solid black;
+    margin: 50px 50px 50px 50px;
+    padding: 100px 100px 100px 200px;
+}
+.background1{
+    background-image: url("../assets/outerspace.png");
+}
+p{
+    text-align: center;
+}
+.border-style h2{
+    border-style: ridge;
+    text-align: center;
+    border-color: green;
+
+}
+.border-style li{
+    margin: 10px;
+}
+.border-style li:nth-child(1){
+    height: 50px;
+    width: 50%;
+    border-style: inset;
+    border-color: green;
+}
+.border-style li:nth-child(2){
+    height: 50px;
+    width: 50%;
+    border-style: inset;
+    border-color: green;
+}
+.border-style li:nth-child(3){
+    height: 50px;
+    width: 50%;
+    border-style: inset;
+    border-color: green;
+}
+#positioning{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 400px;
+}
+#positioning2{
+    position: fixed;
+    width: 200px;
+    height: 300px;
+    margin: 60px;
+    right: 15%;
+    top: 50%;
+}
